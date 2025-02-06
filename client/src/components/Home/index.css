@@ -1,0 +1,12 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assests/Home/green-home-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.button-hover {
+    transition: all 0.3s ease;
+}
+.button-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
