@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About"
 import Mission from "./components/Mission";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer"
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/mission" element={<Mission />} />
       <Route path="/blog" element={<Blog/>}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
