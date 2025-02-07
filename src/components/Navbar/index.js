@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 class Navbar extends Component {
-    state = { onMobile: false, activeButton: "/" };
+    state = { onMobile: false, activeButton: "" };
 
     onClickMobileMenu = () => {
         this.setState(prevState => ({ onMobile: !prevState.onMobile }));
