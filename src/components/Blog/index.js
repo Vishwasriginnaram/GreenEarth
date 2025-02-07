@@ -1,9 +1,9 @@
 import "./index.css"
 const Blog = () => (
-    <div id="blog" className="pt-24 pb-16 px-4 bg-[#243028] text-white">
-            <div className="container mx-auto max-w-4xl">
+    <div id="blog" className="pt-24 pb-16 px-8 bg-[#243028] text-white">
+            <div className="container mx-auto">
                 <h2 className="text-3xl font-bold mb-8 text-green-500">Blog & Resources</h2>
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-3 gap-8">
                     <article className="bg-[#1a2421] rounded-lg overflow-hidden shadow-lg">
                         <img src="https://images.unsplash.com/photo-1530968464165-7a1861cbaf9f?auto=format&fit=crop&w=800" alt="Latest Conservation Efforts" className="w-full h-48 object-cover"/>
                         <div className="p-6">

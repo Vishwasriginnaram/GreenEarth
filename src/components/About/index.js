@@ -5,7 +5,7 @@ const About = () => (
             <div className="container mx-auto max-w-6xl flex flex-col gap-y-6">
                 <div className="grid md:grid-cols-2 gap-8">
                     <div>
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800" alt="Conservation work" className="rounded-lg shadow-lg feature-card"/>
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800" alt="Conservation work" className="rounded-lg shadow-lg hover:translate-y-[-10px] hover:shadow-xl ease-in duration-200"/>
                     </div>
                     <div>
                         <p className="text-lg mb-6">
@@ -18,7 +18,7 @@ const About = () => (
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
                     <div>
-                        <img src="https://saveplants.org/wp-content/uploads/2020/12/plants-in-peril-img-home.png" alt="Conservation work" className="rounded-lg shadow-lg feature-card"/>
+                        <img src="https://saveplants.org/wp-content/uploads/2020/12/plants-in-peril-img-home.png" alt="Conservation work" className="rounded-lg shadow-lg hover:translate-y-[-10px] hover:shadow-xl ease-in duration-200"/>
                     </div>
                     <div>
                         <h2 className="text-3xl font-bold mb-8 text-green-500">Why We Save Plants</h2>
