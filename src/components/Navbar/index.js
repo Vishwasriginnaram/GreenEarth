@@ -70,7 +70,7 @@ class Navbar extends Component {
                             <Link to="/login" onClick={() => this.onButtonClick("/login")}> 
                                 <button
                                     className={`px-4 py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 transition-all ${
-                                        activeButton === "/login" ? "bg-green-400 text-black" : ""
+                                        activeButton === "/login" ? "bg-green-400 text-[#000000]" : ""
                                     }`}
                                 >
                                     Login
@@ -79,15 +79,13 @@ class Navbar extends Component {
                             <Link to="/signup" onClick={() => this.onButtonClick("/signup")}> 
                                 <button
                                     className={`px-4 py-2 rounded-lg border border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 transition-all ${
-                                        activeButton === "/signup" ? "bg-green-400 text-black" : ""
+                                        activeButton === "/signup" ? "bg-green-400 text-[#000000]" : ""
                                     }`}
                                 >
                                     Sign Up
                                 </button>
                             </Link>
                         </div>
-                        
-                        {/* Mobile Menu Button */}
                         <button className="lg:hidden text-3xl text-white" onClick={this.onClickMobileMenu}>
                             <i className="bi bi-list font-extrabold"></i>
                         </button>
