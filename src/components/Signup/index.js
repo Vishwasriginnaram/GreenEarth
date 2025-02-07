@@ -9,7 +9,7 @@ const Signup = () => {
 
   return (
     <div className="signup-tree1 min-h-screen flex items-center justify-center pt-24 pb-8 bg-[#1a2421]">
-      <div className="w-full flex justify-start px-4 lg:px-32 py-6">
+      <div className="w-full flex justify-end px-4 lg:px-32 py-6">
         <div className="max-w-md w-full px-8 py-8 rounded-lg shadow-2xl border border-green-400 bg-[#243028]">
           {/* Header */}
           <div className="text-center mb-8">
