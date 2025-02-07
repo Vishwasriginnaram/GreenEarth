@@ -7,7 +7,7 @@ const Login = () => (
     <div className="max-w-md w-full px-8 py-8 rounded-lg shadow-2xl border border-green-400 bg-[#243028]">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-2 text-green-400">Welcome Back</h2>
+          <h2 className="text-3xl font-bold mb-2 text-green-400"></h2>
           <p className="text-white">Sign in to access your GreenEarth account</p>
         </div>
 
