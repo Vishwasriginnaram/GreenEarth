@@ -78,7 +78,7 @@ const Signup = () => (
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <input type="checkbox" id="remember" className="rounded bg-transparent" />
-              <label htmlFor="terms" className="ml-2 text-sm text-white">
+              <label htmlFor="terms" className="ml-2 text-[12px] md:text-sm text-white">
                 I accept the{" "}
                 <span className="text-green-400">Terms of Use</span> &{" "}
                 <span className="text-green-400">Privacy Policy</span>
