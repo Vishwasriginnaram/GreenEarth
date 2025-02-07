@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 const Login = () => (
-  <div className="min-h-screen flex items-center justify-center pt-24 pb-8 bg-[#1a2421]">
-    <div className="container mx-auto px-4">
-      <div className="max-w-md mx-auto px-8 py-8 rounded-lg shadow-2xl border border-green-400 bg-[#243028]">
+  <div className="login-tree min-h-screen flex items-center justify-center pt-24 pb-8 bg-[#1a2421]">
+    <div className="w-full flex justify-start px-12 py-12">
+    <div className="max-w-md w-full px-8 py-8 rounded-lg shadow-2xl border border-green-400 bg-[#243028]">
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-2 text-green-400">Welcome Back</h2>
