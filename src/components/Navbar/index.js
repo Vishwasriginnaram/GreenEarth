@@ -86,8 +86,6 @@ class Navbar extends Component {
                                 </button>
                             </Link>
                         </div>
-                        
-                        {/* Mobile Menu Button */}
                         <button className="lg:hidden text-3xl text-white" onClick={this.onClickMobileMenu}>
                             <i className="bi bi-list font-extrabold"></i>
                         </button>
